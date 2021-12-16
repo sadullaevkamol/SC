@@ -1,0 +1,23 @@
+body {
+    background: rgb(255, 217, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.square {
+    width: 500px;
+    height: 500px;
+    background: black;
+    transition: 0.5s;
+    border: 1px solid white;
+
+}
+
+.square.circle {
+    background: white;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid black;
+}
